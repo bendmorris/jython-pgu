@@ -5,11 +5,11 @@
 # Imports #
 ###########
 
-import pygame
+import pyj2d as pygame
 
-from .const import *
-from . import widget
-from .errors import PguError
+from const import *
+import widget
+from errors import PguError
 
 #############
 # Functions #

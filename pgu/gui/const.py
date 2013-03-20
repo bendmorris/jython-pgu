@@ -22,9 +22,9 @@ Other:
     NOATTR
 
 """
-import pygame
+import pyj2d as pygame
 
-from pygame.locals import QUIT, MOUSEBUTTONDOWN, MOUSEBUTTONUP, MOUSEMOTION, KEYDOWN, USEREVENT
+from pyj2d.locals import QUIT, MOUSEBUTTONDOWN, MOUSEBUTTONUP, MOUSEMOTION, KEYDOWN, USEREVENT
 ENTER = pygame.locals.USEREVENT + 0
 EXIT = pygame.locals.USEREVENT + 1
 BLUR = pygame.locals.USEREVENT + 2

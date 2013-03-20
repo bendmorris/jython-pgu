@@ -1,6 +1,6 @@
 """Funtions for manipulating pygame surfaces."""
 
-import pygame
+import pyj2d as pygame
 
 def subsurface(s,r):
     """Return the subsurface of a surface, with some help, checks."""

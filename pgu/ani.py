@@ -7,7 +7,7 @@ future versions of pgu!
 print ('pgu.ani - This module is alpha, and is subject to change.')
 
 import math
-import pygame
+import pyj2d as pygame
 
 def _ani_load(tv,name,parts,frames,shape):
     l = len(frames)

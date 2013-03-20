@@ -12,7 +12,7 @@ future versions of pgu!
 print('pgu.hexvid - This module is alpha, and is subject to change.')
 
 from pgu.vid import *
-import pygame
+import pyj2d as pygame
 
 
 class Hexvid(Vid):

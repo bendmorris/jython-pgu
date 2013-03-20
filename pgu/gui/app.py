@@ -1,13 +1,13 @@
 """Defines the top-level application widget"""
 
-import pygame
+import pyj2d as pygame
 import os
-from pygame.locals import *
+from pyj2d.locals import *
 
-from . import pguglobals
-from . import container
-from .theme import Theme
-from .const import *
+import pguglobals
+import container
+from theme import Theme
+from const import *
 
 class App(container.Container):
     """The top-level widget for an application.

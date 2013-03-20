@@ -1,7 +1,7 @@
 """Square tile based engine."""
 
 from pgu.vid import *
-import pygame
+import pyj2d as pygame
 
 class Tilevid(Vid):
     """Based on [[vid]] -- see for reference."""

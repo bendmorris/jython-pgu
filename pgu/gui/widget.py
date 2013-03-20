@@ -1,11 +1,11 @@
 """This modules defines the Widget class, which is the base of the PGU widget
 hierarchy."""
 
-import pygame
+import pyj2d as pygame
 
-from . import pguglobals
-from . import style
-from .errors import PguError
+import pguglobals
+import style
+from errors import PguError
 
 class SignalCallback:
     # The function to call

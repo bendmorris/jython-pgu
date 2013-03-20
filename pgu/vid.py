@@ -18,9 +18,9 @@ Bible of the same name for historical reasons.)
 
 """
 
-import pygame
-from pygame.rect import Rect
-from pygame.locals import *
+import pyj2d as pygame
+from pyj2d.rect import Rect
+from pyj2d.locals import *
 import math
 
 class Sprite:

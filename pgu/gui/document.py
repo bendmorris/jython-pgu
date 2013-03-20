@@ -1,9 +1,9 @@
 """
 """
-import pygame
+import pyj2d as pygame
 
-from . import container
-from . import layout
+import container
+import layout
 
 class _document_widget:
     def __init__(self,w,align=None):

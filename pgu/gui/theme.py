@@ -5,18 +5,18 @@
 
 import StringIO
 import os, re
-import pygame
+import pyj2d as pygame
 
 try:
     from configparser import ConfigParser
 except:
     from ConfigParser import ConfigParser
 
-from .const import *
-from . import widget
-from . import surface
-from .errors import StyleError
-from .basic import parse_color, is_color
+from const import *
+import widget
+import surface
+from errors import StyleError
+from basic import parse_color, is_color
 
 __file__ = os.path.abspath(__file__)
 

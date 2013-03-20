@@ -14,8 +14,8 @@ else:
     htmllib = None
 
 import re
-import pygame
-from pygame.locals import *
+import pyj2d as pygame
+from pyj2d.locals import *
 
 from pgu import gui
 

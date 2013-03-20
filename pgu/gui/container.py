@@ -1,13 +1,13 @@
 """Defines the Container class which is the base class for all widgets that contain other widgets.
 """
-import pygame
-from pygame.locals import *
+import pyj2d as pygame
+from pyj2d.locals import *
 
-from .const import *
-from . import widget, surface
-from . import pguglobals
-from .surface import ProxySurface
-from .errors import StyleError
+from const import *
+import widget, surface
+import pguglobals
+from surface import ProxySurface
+from errors import StyleError
 
 class Container(widget.Widget):
     """The base container widget, can be used as a template as well as stand alone."""

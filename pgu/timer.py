@@ -1,7 +1,7 @@
 """A timer for games with set-rate FPS.
 """
 
-import pygame
+import pyj2d as pygame
 import time
 
 

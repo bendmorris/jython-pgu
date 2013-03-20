@@ -1,7 +1,7 @@
 """a state engine. 
 """
-import pygame
-from pygame.locals import *
+import pyj2d as pygame
+from pyj2d.locals import *
 
 class State:
     """Template Class -- for a state.

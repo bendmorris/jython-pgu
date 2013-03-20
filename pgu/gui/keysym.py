@@ -1,10 +1,10 @@
 """
 """
-import pygame
-from pygame.locals import *
+import pyj2d as pygame
+from pyj2d.locals import *
 
-from .const import *
-from . import widget
+from const import *
+import widget
 
 class Keysym(widget.Widget):
     """A keysym input. This is deprecated and is scheduled to be removed from PGU."""

@@ -6,8 +6,8 @@ future versions of pgu!
 
 print('pgu.fonts - This module is alpha, and is subject to change.')
 
-import pygame
-from pygame.locals import *
+import pyj2d as pygame
+from pyj2d.locals import *
 
 class TileFont:
     """Creates an instance of the TileFont class.  Interface compatible 

@@ -11,7 +11,7 @@ future versions of pgu!
 print('pgu.isovid - This module is alpha, and is subject to change.')
 
 from pgu.vid import *
-import pygame
+import pyj2d as pygame
 
 class Isovid(Vid):
     """Create an iso vid engine.  See [[vid]]"""

@@ -1,10 +1,10 @@
-import pygame
+import pyj2d as pygame
 
-from .const import *
-from . import table
-from . import group
-from . import button, basic
-from . import pguglobals
+from const import *
+import table
+import group
+import button, basic
+import pguglobals
 
 def action_open(value):
     print('gui.action_open',"Scheduled to be deprecated.")
