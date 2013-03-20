@@ -2,12 +2,12 @@
 """
 import os
 
-from . import pguglobals
-from .const import *
-from . import surface
-from . import container, table
-from . import group
-from . import basic, button, slider
+import pguglobals
+from const import *
+import surface
+import container, table
+import group
+import basic, button, slider
 
 class SlideBox(container.Container):
     """A scrollable area with no scrollbars.

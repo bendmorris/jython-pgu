@@ -3,9 +3,9 @@
 
 import sys
 
-from .const import *
-from . import container
-from .style import StyleError
+from const import *
+import container
+from style import StyleError
 
 class Table(container.Container):
     """A table style container widget.

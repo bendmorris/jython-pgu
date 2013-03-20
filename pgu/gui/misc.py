@@ -1,6 +1,6 @@
-from .const import *
-from . import widget
-from . import pguglobals
+from const import *
+import widget
+import pguglobals
 
 class ProgressBar(widget.Widget):
     """A progress bar widget.

@@ -1,10 +1,10 @@
 """Contains various types of button widgets."""
 
-from pygame.locals import *
+from pyj2d.locals import *
 
-from .const import *
-from . import widget, surface
-from . import basic
+from const import *
+import widget, surface
+import basic
 
 class _button(widget.Widget):
     # The underlying 'value' accessed by the getter and setters below
