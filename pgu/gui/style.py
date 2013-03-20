@@ -1,8 +1,8 @@
 """
 """
 
-from . import pguglobals
-from .errors import StyleError
+import pguglobals
+from errors import StyleError
 
 class Style(object):
     """Widget style information. If the style attribute is not explicitly defined in the
